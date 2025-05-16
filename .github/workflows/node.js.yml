@@ -33,6 +33,7 @@ jobs:
         # Required.
         path: .
         overwrite: true
+        include-hidden-files: true
   test:
     runs-on: ubuntu-latest
 
