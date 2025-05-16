@@ -31,7 +31,7 @@ jobs:
     
         # A file, directory or wildcard pattern that describes what to upload
         # Required.
-        path: .
+        path: $GITHUB_WORKSPACE
         overwrite: true
         include-hidden-files: true
   test:
